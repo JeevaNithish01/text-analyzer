@@ -1,0 +1,45 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+*{
+  margin : 0;
+  padding : 0;
+  box-sizing : border-box;
+}
+
+body {
+  display : flex;
+  height : 100vh;
+  flex-direction : column; 
+  align-items : center;
+  justify-content : center;
+  background-color : #2E2F3C;
+}
+
+textarea {
+  width : 90%;
+  height : 300px;
+  font-size : 30px;
+  padding : 30px;
+  background-color : #080B1C;
+  border-radius : 25px;
+  color : white;
+}
+
+textarea:focus {
+  border : 3px solid #F63556;
+  transition : 1s;
+}
+
+p {
+  color : #F63556;
+  font-size : 20px;
+  margin-top : 10px;
+}
+
+div {
+  /* border : 1px solid white; */
+  margin-top : 25px; 
+}
